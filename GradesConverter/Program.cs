@@ -1,4 +1,4 @@
-Console.WriteLine("There are many differences between Ukraine and America, not only in  languages ​​and national mentalities,\n but also in evaluation, for example ,enter the number(grade) that you would like to \n convert to the English grading system ");
+﻿Console.WriteLine("There are many differences between Ukraine and America, not only in  languages ​​and national mentalities,\n but also in evaluation, for example ,enter the number(grade) that you would like to \n convert to the English grading system ");
 int userInput = Convert.ToInt32(Console.ReadLine());
 string result = string.Empty;
 
@@ -28,7 +28,7 @@ else if (userInput > 89 && userInput <= 100)
 }
 else if (userInput > 100)
 {
-Console.WriteLine("number is unidentified");
+    Console.WriteLine("number is unidentified");
 }
 
 Console.WriteLine($"grade :  {result}");
