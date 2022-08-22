@@ -17,7 +17,7 @@ for (int i = 8; i > 0; i--)
         {
             if ((i + j) % 2 == 0)
             {
-                Console.Write('#' + " ");
+                Console.Write('*' + " ");
             }
             else
             {
