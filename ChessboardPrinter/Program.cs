@@ -1,31 +1,17 @@
-﻿// Надрукувати в консоль шахову доску 8х8, де ' '(пробіл) - біла клітинка, '*' - чорна
-
-Console.WriteLine("A B C D E F G H");
-Console.WriteLine("---------------");
-
-// TODO: Будь-ласка, зроби простіше, тільки клітинки 8х8, без літер та цифр
-for (int i = 8; i > 0; i--)
+﻿for (int i = 8; i > 0; i--)
 {
-    for (int j = 1; j < 10; j++)
+    for (int j = 1; j < 9; j++)
     {
-        if (j == 9)
-        {
-            // TODO: Зроблено не згідно завдання, має бути ' '(пробіл) - біла клітинка, '*' - чорна
-            Console.Write("|" + i);
-        }
-        else
-        {
-            if ((i + j) % 2 == 0)
-            {
-                Console.Write('*' + " ");
-            }
-            else
-            {
-                // TODO: Що таке (char)79? Ярозумію, що код можна скопіювати з інтернету, та це не є дуже корисним зараз:)
-                Console.Write(((char)79).ToString() + " ");
-            }
-        }
-    }
-}
 
-Console.WriteLine();
+        if ((i + j) % 2 == 0)
+        {
+            Console.Write('*');
+        }
+        else if ((i + j) % 2! == 0);
+            {
+                Console.Write(' ');
+            }
+     }
+    Console.WriteLine();
+
+}
