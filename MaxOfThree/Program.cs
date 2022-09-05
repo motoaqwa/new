@@ -17,3 +17,6 @@ else if (userInput2 > userInput1 && userInput2 > userInput3)
 
 else if (userInput3 > userInput1 && userInput3 > userInput2)
     Console.WriteLine($"maximum number : {userInput3}");
+
+
+// Код працює
