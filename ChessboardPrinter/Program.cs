@@ -16,4 +16,3 @@ for (int i = 8; i > 0; i--)
 
     Console.WriteLine();
 }
-// hflskgjhaSLGK
