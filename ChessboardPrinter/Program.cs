@@ -11,7 +11,7 @@ for (int i = gor; i > 0; i--)
         {
             Console.Write('*');
         }
-        else if ((i + j) % 2! == 0) ;
+        else if ((i + j) % 2! == 0);
         {
             Console.Write(' ');
         }
