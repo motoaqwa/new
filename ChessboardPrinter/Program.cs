@@ -1,10 +1,10 @@
-﻿Console.WriteLine("Привет пользователь с твоей помощью хотел бы построить \n шахматную доску с твоими размерами: \n введи размерность вертикали доски ");
+﻿Console.WriteLine("enter broard dimension: ");
 
-int gor = int.Parse(Console.ReadLine());
+int dimension = int.Parse(Console.ReadLine());
 
-for (int i = gor; i > 0; i--)
+for (int i = 0; i < dimension; i++)
 {
-    for (int j = 1; j < gor+1; j++)
+    for (int j = 0; j < dimension; j++)
     {
 
         if ((i + j) % 2 == 0)
@@ -17,5 +17,3 @@ for (int i = gor; i > 0; i--)
         }
     }
     Console.WriteLine();
-
-}
